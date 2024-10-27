@@ -10,23 +10,23 @@ The project focused on precise memory representation of object-oriented structur
 
 
 ## Project Structure
-The Java file (java2c.java) showcases a typical object-oriented program that uses inheritance and polymorphism, and the corresponding C implementation (test/java2c.c) replicates that behavior.
+The Java file (`java2c.java`) showcases a typical object-oriented program that uses inheritance and polymorphism, and the corresponding C implementation (`test/java2c.c`) replicates that behavior.
 
-The project implements a series of classes (Object, Animal, Dog, Cat, and LegendaryAnimal) with relationships and behaviors similar to their Java counterparts.
+The project implements a series of classes (`Object`, `Animal`, `Dog`, `Cat`, and `LegendaryAnimal`) with relationships and behaviors similar to their Java counterparts.
 
 ### Classes/Types in both the Java and C implementations:
 1. **Animal**:
    - The base class for all animals, contains fields, instance methods and static methods.
 
 3. **Dog (extends Animal)**:
-    - Inherits from `Animal` and overrides methods (like sayHello()).
+    - Inherits from `Animal` and overrides methods (like `sayHello()`).
     - Has its own instance variables.
 
 4. **Cat (extends Animal)**:
-    - Another class that inherits from Animal.
+    - Another class that inherits from `Animal`.
 
 5. **LegendaryAnimal (extends Cat)**:
-    - Further specialization of Cat.
+    - Further specialization of `Cat`.
     - Overrides certain methods and adds specific functionality.
     
 6. **metadata_class**:
