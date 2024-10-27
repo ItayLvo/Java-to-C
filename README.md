@@ -15,19 +15,20 @@ The Java file (java2c.java) showcases a typical object-oriented program that use
 The project implements a series of classes (Object, Animal, Dog, Cat, and LegendaryAnimal) with relationships and behaviors similar to their Java counterparts.
 
 ### Classes/Types in both the Java and C implementations:
-1. **Animal**: The base class for all animals, contains fields, instance methods and static methods.
+1. **Animal**:
+   - The base class for all animals, contains fields, instance methods and static methods.
 
-2. **Dog (extends Animal)**:
+3. **Dog (extends Animal)**:
     - Inherits from `Animal` and overrides methods (like sayHello()).
     - Has its own instance variables.
 
-3. **Cat (extends Animal)**:
+4. **Cat (extends Animal)**:
     - Another class that inherits from Animal.
 
-4. **LegendaryAnimal (extends Cat)**:
+5. **LegendaryAnimal (extends Cat)**:
     - Further specialization of Cat.
     - Overrides certain methods and adds specific functionality.
     
-5. **metadata_class**:
+6. **metadata_class**:
 	- Used in the C implementation to serve as the metadata for each "class".
 	- Each class's metadata holds information about its name, size in memory, virtual table that holds its virtual functions (overriden or not), and information about its super class.
